@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: red;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.sideBar {
+  width: 20%;
+  background-color: green;
+  height: 100vh;
+}
+.brandLogo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.brandLogo .logo {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 80%;
+}
