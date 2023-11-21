@@ -1,19 +1,22 @@
 import Logo from "../logo.svg";
+import { userIcon, chartIcon } from "../Asset";
 
 export const pages = [
   {
     id: 1,
-    icon: Logo,
+    icon: userIcon,
     pages: "Dashboard",
+    // style: "bg-red-500",
   },
   {
     id: 2,
     icon: Logo,
     pages: "Orders",
+    // style: "bg-red-100",
   },
   {
     id: 3,
-    icon: Logo,
+    icon: chartIcon,
     pages: "Customer",
   },
   {
